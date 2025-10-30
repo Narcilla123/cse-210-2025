@@ -6,9 +6,9 @@ class Program
         string firstName;
         string lastName;
 
-        Console.Write("Please enter your First Name");
+        Console.Write("Please enter your First Name ");
         firstName = Console.ReadLine();
-        Console.Write("Please enter your Last Name");
+        Console.Write("Please enter your Last Name ");
         lastName = Console.ReadLine();
 
         Console.WriteLine($"Your name is: {lastName}, {firstName} {lastName}");
